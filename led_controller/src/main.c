@@ -35,6 +35,7 @@ void pin_isr(const struct device *dev, struct gpio_callback *cb, gpio_port_pins_
     }
 }
 
+
 int init_devices()
 {
     for(uint16_t i = 0; i != sizeof(leds) / sizeof(struct gpio_dt_spec); i++)
