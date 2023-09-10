@@ -2,6 +2,10 @@
     "nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.4.0}",
     "nrf-connect.applications": [
         "${workspaceFolder}/led_controller",
-        "${workspaceFolder}/uart_test"
-    ]
+        "${workspaceFolder}/uart_test",
+        "${workspaceFolder}/ble_ad",
+    ],
+    "files.associations": {
+        "kernel.h": "c"
+    }
 }
