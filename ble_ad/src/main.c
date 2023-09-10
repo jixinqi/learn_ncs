@@ -24,7 +24,7 @@ int main(void)
     };
 
     const struct bt_data sd[] = {
-        BT_DATA(BT_DATA_URI, url_data,sizeof(url_data))
+        BT_DATA(BT_DATA_URI, url_data, sizeof(url_data))
     };
 
     {

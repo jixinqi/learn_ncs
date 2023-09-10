@@ -16,10 +16,10 @@ struct gpio_dt_spec leds[] = {
     GPIO_DT_SPEC_GET(DT_ALIAS(led3), gpios)
 };
 struct gpio_dt_spec keys[] = {
-    GPIO_DT_SPEC_GET(DT_ALIAS(key0), gpios),
-    GPIO_DT_SPEC_GET(DT_ALIAS(key1), gpios),
-    GPIO_DT_SPEC_GET(DT_ALIAS(key2), gpios),
-    GPIO_DT_SPEC_GET(DT_ALIAS(key3), gpios)
+    GPIO_DT_SPEC_GET(DT_ALIAS(sw0), gpios),
+    GPIO_DT_SPEC_GET(DT_ALIAS(sw1), gpios),
+    GPIO_DT_SPEC_GET(DT_ALIAS(sw2), gpios),
+    GPIO_DT_SPEC_GET(DT_ALIAS(sw3), gpios)
 };
 
 
@@ -73,7 +73,6 @@ int main(void)
 
     struct gpio_callback pin_cb_data;
     gpio_init_callback(&pin_cb_data, pin_isr, UINT32_MAX);
-
     for(uint16_t i = 0; i != sizeof(keys) / sizeof(struct gpio_dt_spec); i++)
     {
         const struct gpio_dt_spec* key_ptr = &(keys[i]);

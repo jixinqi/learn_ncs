@@ -4,8 +4,10 @@
         "${workspaceFolder}/led_controller",
         "${workspaceFolder}/uart_test",
         "${workspaceFolder}/ble_ad",
+        "${workspaceFolder}/ble_ad_dynamically",
+        "${workspaceFolder}/ble_conn",
     ],
     "files.associations": {
-        "kernel.h": "c"
+        "uuid.h": "c"
     }
 }

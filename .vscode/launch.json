@@ -1,0 +1,12 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "nrf-connect",
+			"request": "launch",
+			"name": "Launch ble_ad_dynamically\\build\\nrf52840dk",
+			"config": "${workspaceFolder}/ble_ad_dynamically/build/nrf52840dk",
+			"runToEntryPoint": "main"
+		}
+	]
+}
