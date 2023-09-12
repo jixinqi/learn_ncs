@@ -5,7 +5,7 @@
 			"type": "nrf-connect",
 			"request": "launch",
 			"name": "Launch ble_ad_dynamically\\build\\nrf52840dk",
-			"config": "${workspaceFolder}/ble_ad_dynamically/build/nrf52840dk",
+			"config": "${workspaceFolder}/uart_to_ch9141/build/nrf52840dk",
 			"runToEntryPoint": "main"
 		}
 	]

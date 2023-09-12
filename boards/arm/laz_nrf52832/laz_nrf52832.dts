@@ -56,6 +56,11 @@
 		key1 = &key1;
 		key2 = &key2;
 		key3 = &key3;
+
+		sw0 = &key0;
+		sw1 = &key1;
+		sw2 = &key2;
+		sw3 = &key3;
 	};
 };
 

@@ -2,12 +2,13 @@
     "nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.4.0}",
     "nrf-connect.applications": [
         "${workspaceFolder}/led_controller",
-        "${workspaceFolder}/uart_test",
         "${workspaceFolder}/ble_ad",
         "${workspaceFolder}/ble_ad_dynamically",
         "${workspaceFolder}/ble_conn",
+        "${workspaceFolder}/ble_conn_to_mobile_phone",
+        "${workspaceFolder}/uart_to_ch9141"
     ],
     "files.associations": {
-        "uuid.h": "c"
+        "uart.h": "c"
     }
 }
