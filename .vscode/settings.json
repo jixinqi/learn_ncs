@@ -6,9 +6,7 @@
         "${workspaceFolder}/ble_ad_dynamically",
         "${workspaceFolder}/ble_conn",
         "${workspaceFolder}/ble_conn_to_mobile_phone",
-        "${workspaceFolder}/uart_to_ch9141"
-    ],
-    "files.associations": {
-        "uart.h": "c"
-    }
+        "${workspaceFolder}/uart_to_ch9141",
+        "${workspaceFolder}/i2c_to_ssd1306"
+    ]
 }
