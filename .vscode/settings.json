@@ -7,6 +7,15 @@
         "${workspaceFolder}/ble_conn",
         "${workspaceFolder}/ble_conn_to_mobile_phone",
         "${workspaceFolder}/uart_to_ch9141",
-        "${workspaceFolder}/i2c_to_ssd1306"
-    ]
+        "${workspaceFolder}/i2c_to_ssd1306",
+        "${workspaceFolder}/multithreaded_application",
+        "${workspaceFolder}/multithreaded_mutex_application",
+        "${workspaceFolder}/multithreaded_sync_application"
+    ],
+    "files.associations": {
+        "log.h": "c",
+        "printk.h": "c",
+        "thread_analyzer.h": "c",
+        "rand32.h": "c"
+    }
 }
