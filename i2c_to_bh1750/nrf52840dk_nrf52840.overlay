@@ -1,0 +1,11 @@
+&i2c0 {
+    clock-frequency = <I2C_BITRATE_STANDARD>;
+    gy302: gy302@23
+    {
+        compatible = "i2c-device";
+        status = "okay";
+        reg = <0x23>;
+    };
+
+    status = "okay";
+};
