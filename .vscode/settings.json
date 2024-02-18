@@ -6,6 +6,7 @@
         "${workspaceFolder}/ble_ad_dynamically",
         "${workspaceFolder}/ble_conn",
         "${workspaceFolder}/ble_conn_to_mobile_phone",
+        "${workspaceFolder}/ble_lbs",
         "${workspaceFolder}/uart_to_ch9141",
         "${workspaceFolder}/i2c_to_ssd1306",
         "${workspaceFolder}/i2c_to_bh1750",
@@ -17,6 +18,16 @@
         "log.h": "c",
         "printk.h": "c",
         "thread_analyzer.h": "c",
-        "rand32.h": "c"
+        "rand32.h": "c",
+        "kernel.h": "c",
+        "compare": "c",
+        "conn.h": "c",
+        "ratio": "c",
+        "system_error": "c",
+        "array": "c",
+        "functional": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c"
     }
 }
