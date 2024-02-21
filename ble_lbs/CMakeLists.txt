@@ -7,5 +7,7 @@ project(ble_lbs)
 
 target_sources(app PRIVATE
     src/main.c
-    src/ble_lbs.c
+    src/devices/devices.c
+    src/bluetooth/bt.c
+    src/bluetooth/lbs_0.c
 )
